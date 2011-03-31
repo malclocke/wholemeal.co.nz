@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wholemeal | Complete | Quality</title>
+    {% include headlinks.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div id="page" class="colmask leftmenu">
+      <div class="colleft">
+        <div id="main" class="col1">
+
+          <div id="contact">
+
+            <div class="strapline">
+              Creating <strong>simple</strong>, <strong>functional</strong> web
+              applications based on <strong>your requirements</strong>
+            </div>
+
+            <ul class="contact">
+              <li class="telephone">+64 (0)21 1100619</li>
+              <li class="email"><span class="spamspan"><span class="u">malc</span> [at] <span class="d">wholemeal [dot] co [dot] nz</span></span></li>
+              <li class="twitter"><a href="http://twitter.com/malclock">@malclocke</a></li>
+            </ul>
+
+          </div>
+
+          <h1><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h1>
+
+          {{ site.posts | first }}
+
+        </div>
+
+
+        <div id="sidebar" class="col2">
+
+          <h2 class="sub">Blog Archive</h2>
+          {% for post in site.posts limit:3 offset:1 %}
+            <div class="post">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <div class="content">
+                {{ post.content | truncatewords:60 }}
+              </div>
+              <div class="readmore">
+                <a href="{{ post.url }}">Read more &rarr;</a>
+              </div>
+            </div>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+body {
+  font-family: Verdana,Tahoma,Arial,Helvetica,"Bitstream Vera Sans",sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a { color: black; }
+
+#page {
+  font-size: 0.875em;
+  line-height: 1.286em;
+  margin-top: 4em;
+}
+
+#header {
+  background: #84c34e url('/img/logo.png') no-repeat 4px center;
+  height: 50px;
+  -moz-box-shadow: 0 5px 25px #ddd;
+  -webkit-box-shadow: 0 5px 25px #ddd;
+}
+
+#header ul.links {
+  display: inline-block;
+  margin: 0;
+  float: right;
+}
+#header ul.links li {
+  display: inline;
+  padding: 0.5em 1em;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-radius-bottomleft: 3px;
+  border-radius-bottomleft: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-radius-bottomright: 3px;
+  border-radius-bottomright: 3px;
+  -moz-box-shadow: 0 1px 1px #eee;
+  -webkit-box-shadow: 0 1px 1px #eee;
+  padding: 0.4em 0.5em;
+  margin-right: 0.8em;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  line-height: 1.8em;
+}
+#header ul.links li.active {
+  background-color: white;
+}
+#header ul.links a {
+  text-decoration: none;
+  color: #525252;
+}
+
+.nocoll #main {
+  padding: 0 9em;
+}
+
+.sub {
+  color: gray;
+  font-style: italic;
+  underline: dotted;
+}
+
+#contact {
+  background: #4E90C3 url('/img/mission-bg.png') no-repeat bottom center;
+  color: white;
+  padding: 2em;
+  margin-bottom: 3em;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-box-shadow: 0 6px 4px #eee;
+  -webkit-box-shadow: 0 6px 4px #eee;
+  font-size: large;
+}
+
+#contact strong {
+  color: #84c34e;
+}
+
+#contact .strapline {
+  clear: both;
+  float: left;
+  line-height: 1.8em;
+  width: 40%;
+}
+#contact .contact {
+  margin: 1em 1em 1em 60%;
+  width: 40%;
+}
+#contact a, #contact a:hover, #contact a:visited, #contact a:active {
+  color: white;
+}
+
+#contact li {
+  list-style-type: none;
+  padding-left: 40px;
+  line-height: 40px;
+}
+#contact li.telephone {
+  background: url('/img/phone.png') no-repeat left center;
+}
+#contact li.email {
+  background: url('/img/mail.png') no-repeat left center;
+}
+#contact li.twitter {
+  background: url('/img/twitter.png') no-repeat left center;
+}
+
+.leftmenu .colleft {
+  background-color: #6b6b6b;
+}
+#sidebar .post {
+  background-color: #393939;
+  color: white;
+  margin-bottom: 2em;
+  margin-right: 6px;
+  border: 1px solid #ddd;
+  -moz-box-shadow: 4px 4px 2px #333;
+  -webkit-box-shadow: 4px 4px 2px #333;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+#sidebar .post h3 {
+  background-color: #111;
+  padding: 0.3em 1em;
+}
+#sidebar .post a {
+  font-weight: bold;
+  color: white;
+}
+#sidebar .readmore {
+  background-color: #222;
+  padding: 0.3em 1em;
+  margin-bottom: 1em;
+}
+
+#sidebar .post .content {
+  margin: 1em;
+}
