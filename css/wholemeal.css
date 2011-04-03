@@ -13,6 +13,12 @@ a { color: black; }
   margin-top: 4em;
 }
 
+.post {
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  border-bottom: 8px solid #eee;
+}
+
 #header {
   background: #84c34e url('/img/logo.png') no-repeat 4px center;
   height: 50px;
@@ -23,31 +29,26 @@ a { color: black; }
 #header ul.links {
   display: inline-block;
   margin: 0;
+  padding: 0;
   float: right;
+  text-transform: uppercase;
+  margin: 0.3em 2em;
 }
 #header ul.links li {
   display: inline;
-  padding: 0.5em 1em;
-  -moz-border-radius-bottomleft: 3px;
-  -webkit-border-radius-bottomleft: 3px;
-  border-radius-bottomleft: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -webkit-border-radius-bottomright: 3px;
-  border-radius-bottomright: 3px;
-  -moz-box-shadow: 0 1px 1px #eee;
-  -webkit-box-shadow: 0 1px 1px #eee;
-  padding: 0.4em 0.5em;
-  margin-right: 0.8em;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  line-height: 1.8em;
+  padding: 0.2em 1em;
+  margin-right: 1px;
+  float: left;
+  background-color: #525252;
+  -moz-box-shadow: 0 2px 2px #525252;
+  -webkit-box-shadow: 0 2px 2px #525252;
 }
-#header ul.links li.active {
-  background-color: white;
+#header ul.links li:hover {
+  background-color: #eec552;
 }
 #header ul.links a {
   text-decoration: none;
-  color: #525252;
+  color: white;
 }
 
 .nocoll #main {
