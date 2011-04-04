@@ -64,10 +64,8 @@ a { color: black; }
 #contact {
   background: #4E90C3 url('/img/mission-bg.png') no-repeat bottom center;
   color: white;
-  padding: 2em;
+  padding: 1em;
   margin-bottom: 3em;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
   -moz-box-shadow: 0 6px 4px #eee;
   -webkit-box-shadow: 0 6px 4px #eee;
   font-size: large;
