@@ -9,7 +9,7 @@ module Jekyll
     def render(context)
       '<script src="https://gist.github.com/' +
         @gist_id +
-        '.js?file=stopfinder.rb"></script>'
+        '.js"></script>'
     end
   end
 end
