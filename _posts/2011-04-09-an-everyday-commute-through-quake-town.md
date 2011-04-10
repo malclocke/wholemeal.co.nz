@@ -77,7 +77,7 @@ The city's sewerage system is severely damaged.  The pipe at the bottom of the
 shot is pumping raw you-know-what into the river, and is one of many sites
 along the river and on the beaches where this is happening.
 
-The foot bridge in the background is also closed, as it contains a 66,000 vault
+The foot bridge in the background is also closed, as it contains a 66,000 volt
 electricity cable, status unknown.
 
 ------
