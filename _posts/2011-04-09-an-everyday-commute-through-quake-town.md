@@ -154,7 +154,7 @@ and toilet.
 
 <a href="http://www.flickr.com/photos/malclocke/5602810528/" title="IMG_5568 by malclocke, on Flickr"><img class="flickr" src="http://farm6.static.flickr.com/5064/5602810528_eb42f2f2f9.jpg" width="500" height="375" alt="IMG_5568"></a>
 
-A collapsed warehouse.  I'm unsure what this place was.
+Trents Wholesalers warehouse.  A goner.
 
 ------
 
